@@ -11,5 +11,18 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 ​
     <?php wp_head(); ?>
-    <h5>I am the header</h5>
 </head>
+<body>
+<header>
+    <section id="Banner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 offset-3 hey">
+            <h1>
+              Hola!
+            </h1>
+         </div>
+	  	</div>
+      </div>
+    </section>
+</header>
